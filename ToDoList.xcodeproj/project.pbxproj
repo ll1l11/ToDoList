@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B5E070991B7E525A006B0192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E070981B7E525A006B0192 /* main.m */; };
 		B5E0709C1B7E525A006B0192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E0709B1B7E525A006B0192 /* AppDelegate.m */; };
-		B5E0709F1B7E525A006B0192 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E0709E1B7E525A006B0192 /* ViewController.m */; };
 		B5E070A21B7E525A006B0192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E070A01B7E525A006B0192 /* Main.storyboard */; };
 		B5E070A41B7E525A006B0192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E070A31B7E525A006B0192 /* Images.xcassets */; };
 		B5E070A71B7E525A006B0192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E070A51B7E525A006B0192 /* LaunchScreen.xib */; };
@@ -35,8 +34,6 @@
 		B5E070981B7E525A006B0192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5E0709A1B7E525A006B0192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5E0709B1B7E525A006B0192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5E0709D1B7E525A006B0192 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5E0709E1B7E525A006B0192 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5E070A11B7E525A006B0192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5E070A31B7E525A006B0192 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5E070A61B7E525A006B0192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -92,8 +89,6 @@
 			children = (
 				B5E0709A1B7E525A006B0192 /* AppDelegate.h */,
 				B5E0709B1B7E525A006B0192 /* AppDelegate.m */,
-				B5E0709D1B7E525A006B0192 /* ViewController.h */,
-				B5E0709E1B7E525A006B0192 /* ViewController.m */,
 				B5E070A01B7E525A006B0192 /* Main.storyboard */,
 				B5E070A31B7E525A006B0192 /* Images.xcassets */,
 				B5E070A51B7E525A006B0192 /* LaunchScreen.xib */,
@@ -235,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E070CA1B7F16CE006B0192 /* ToDoItem.m in Sources */,
-				B5E0709F1B7E525A006B0192 /* ViewController.m in Sources */,
 				B5E070C71B7EE902006B0192 /* AddToDoItemViewController.m in Sources */,
 				B5E0709C1B7E525A006B0192 /* AppDelegate.m in Sources */,
 				B5E070991B7E525A006B0192 /* main.m in Sources */,
