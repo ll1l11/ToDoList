@@ -7,6 +7,7 @@
 //
 
 #import "ToDoListTableViewController.h"
+#import "ToDoItem.h"
 
 @interface ToDoListTableViewController ()
 
@@ -18,8 +19,24 @@
     
 }
 
+- (void)loadInitialData {
+    ToDoItem *item1  = [[ToDoItem alloc] init];
+    ToDoItem *item2  = [[ToDoItem alloc] init];
+    ToDoItem *item3  = [[ToDoItem alloc] init];
+    
+    item1.itemName = @"item1";
+    item2.itemName = @"item2";
+    item3.itemName = @"item3";
+    
+    [self.toDoItems addObject:item1];
+    [self.toDoItems addObject:item2];
+    [self.toDoItems addObject:item3];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.toDoItems = [[NSMutableArray alloc] init];
+    [self loadInitialData];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
